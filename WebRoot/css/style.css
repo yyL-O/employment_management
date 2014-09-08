@@ -1,0 +1,858 @@
+body{
+	font-family: "微软雅黑";
+	font-size: 12px;
+}
+.wrapper{
+	text-align: left;
+	margin: 0;
+	padding: 0;	
+}
+
+/*head*/
+.heading{
+	width: 100%;
+	height: 50px;
+	/*background-color: #404040;*/
+	background:url(../images/header_bg.png) repeat-x;
+}
+.headerBox{
+	width: 960px;
+	height: 50px;
+	margin: 0 auto;
+	color: #fff;
+}
+.logo{
+	font-weight: normal;
+	text-align: left;
+	font-size: 20px;
+	margin-left: 20px;
+	padding-top: 7px;
+	float: left;
+}
+/*.hadId{	
+}*/
+.loginContent{
+	width: 100%;
+	height: 580px;
+	background: #2ABBC0;
+}
+.loginContentBox{
+	width: 960px;
+	margin: 0 auto;
+	padding-top: 90px;
+}
+
+.guide{
+	width: 400px;
+	float: left;
+}
+.guideWord{
+	font-size: 24px;
+}
+.guideWord p{
+	margin-bottom: 12px;
+	font-weight: 600;
+	letter-spacing: 2px;
+	color: #fff;
+}
+.guidePic{
+	border: none;
+	margin-top: 30px;
+	margin-left: 20px;
+}
+
+/*登录部分*/
+
+.loginPart{
+	width: 360px;
+	height: 420px;
+	margin-left: 180px;
+	margin-bottom: 80px;
+	float: left;
+	background: #fff;
+	border-radius:8px;
+}
+.loginTitle{
+	width: 360px;
+	padding: 10px 0;
+	text-align: center;
+	color: #888;
+	vertical-align: center;
+	font-size: 20px;
+	border-radius: 8px 8px 0 0;
+}
+/*个人登录*/
+
+.personalLogin{
+	width: 300px;
+	padding: 0 30px;
+	margin-top: 16px;
+}
+.loginForm{
+	width: 300px;
+}
+
+.PersonalError{
+	width: 300px;
+	height: 16px;
+	padding-bottom: 4px;
+	display: none;
+	text-align: right;
+	color: #e00000;
+}
+.loginSelect{
+	margin-bottom: 16px;
+}
+.loginS{
+	width: 160px;
+	height: 36px;
+	line-height: 18px;
+	text-align: center;
+	color: #777;
+	border: 1px solid #d9d9da;
+	border-radius: 4px;
+	padding-left: 36px;
+}
+.loginForm select:hover,.loginForm select:active{
+	border: 1px solid #2ABBC0;
+}
+.usernameFiled{
+	margin-bottom: 16px;
+}
+label{
+	padding-right: 10px;
+	color: #666;
+}
+#pusername{
+	width: 240px;
+	height: 36px;
+	line-height: 18px;
+	font-family: "微软雅黑";
+	color: #666;
+	border: 1px solid #d9d9da;
+	border-radius: 4px;
+	padding-left: 16px;
+}
+#pusername:hover,#pusername:active{
+	border: 1px solid #2ABBC0;
+}
+.passwordField{
+	width: 300px;
+	height: 36px;
+	margin-bottom: 16px;
+}
+#ppassword{
+	width: 240px;
+	height: 36px;
+	line-height: 18px;
+	font-family: "微软雅黑";
+	color: #666;
+	border: 1px solid #d9d9da;
+	border-radius: 4px;
+	padding-left: 16px;
+}
+#ppassword:hover,#ppassword:active{
+	border: 1px solid #2ABBC0;
+}
+
+/*记住密码*/
+.remember{
+	width: 300px;
+	height: 16px;
+	line-height: 16px;
+	margin-bottom: 16px;
+}
+.remCheck{
+	vertical-align: -2px;
+	border: 1px solid #d9d9da;
+	border-radius: 2px;
+}
+.remText{
+	font-size: 12px;
+	color: #666666;
+}
+
+/*登录按钮*/
+
+.btnBox{
+	width: 300px;
+	height: 46px;
+	font-size: 18px;
+	color: #fff;
+	margin-bottom: 40px;
+}
+.loginBtn{
+	width: 300px;
+	height: 46px;
+	font-family: "微软雅黑";
+	font-size: 18px;
+	line-height: 46px;
+	background: #f57451;
+	border: none;
+	border-radius: 4px;
+	color: #fff;
+}
+.lineCut{
+	width:200px;
+	height: 1px;
+	margin: 0 50px;
+	overflow: hidden;
+	background: url(../images/line_cut.gif) no-repeat;	
+	margin-bottom: 30px;
+}
+.regLink{
+	width: 300px;
+	padding-left: 50px;
+	color: #666;
+	float: left;
+}
+.regLink li{
+	float: left;
+	width: 60px;
+	height: 18px;
+	margin:0 10px 0 4px;
+}
+.regLink li a{
+	color: #f57451;
+	font-weight: bold;
+	/*background:#ccc;*/
+}
+.regLink li a:hover,.regLink li a:active{
+	color: #2ABBC0;
+
+}
+.footer{
+	width: 100%;
+	height:40px;
+	text-align: center;
+	color: #999;
+	clear: both;
+}
+.footer p{
+	line-height: 36px;
+}
+
+
+/*perReg.html样式*/
+
+.register{
+	width: 100%;
+}
+.regGuide{
+	width: 100%;
+	height: 180px;
+	background: #2ABBC0;
+}
+.regWord{
+	width: 860px;
+	margin: 0 auto;
+	padding-top: 56px;
+	color: #fff;
+}
+.regWord h1{
+	font-size: 24px;
+	color: #fff;
+	font-weight: normal;
+	letter-spacing: 2px;
+	float: left;
+	padding-left: 26px;
+}
+.regWord span{
+	font-size: 22px;
+	padding: 0 5px;
+	float: left;
+}
+.regWord p{
+	font-size: 18px;
+	float: left;
+	padding-top: 8px;
+	/*line-height: 40px;*/
+}
+.loginTip{
+	float: right;
+	padding-right: 26px;
+}
+.loginTip p{
+	font-size: 16px;
+}
+.loginTip span a{
+	color: #fecea8;
+	font-weight: normal;
+	font-size: 16px;
+}
+.regContent{
+	width: 100%;
+	background: #f8f8f8;
+}
+.regBox{
+	width: 860px;
+	margin: 0 auto;
+	background: #fff;
+	border: 1px solid #d1d1d1;
+	border-radius: 4px;
+	position: relative;
+	top: -80px;
+}
+.regTitle{
+	width: 860px;
+	height: 60px;
+	font-size: 28px;
+	color: #b2b2b2;
+	text-align: center;
+	padding-top: 16px;
+}
+.regForm{
+	width: 410px;
+	padding: 0 250px 0 200px;
+	text-align: right;
+}
+#perReg{
+	
+}
+.re_ex{
+	width: 400px;
+	height: 20px;
+	text-align: right;
+}
+.fieldReg{
+	width: 280px;
+	height: 36px;
+	line-height: 16px;
+	font-family: "微软雅黑";
+	font-size: 14px;
+	color: #666;
+	border: 2px solid #cecece;
+	border-radius: 4px;
+	margin-bottom:6px;
+	/*margin-top: 2px;*/
+	padding-left: 12px;
+	padding-right: 12px;
+}
+.fieldReg:hover, .fieldReg:active{
+	border: 2px solid #2abbc0;
+}
+
+.sexBox{
+	width: 280px;
+	height: 36px;
+	text-align: left;
+	margin-left: 60px;
+	margin-top: 20px;
+	margin-bottom: -10px;
+}
+
+.fieldSex{
+	width: 16px;
+	height: 16px;
+	border: 1px solid #cecece;
+	margin: 0 16px 0 12px;
+}
+
+.re_inputdegree{
+	width: 180px;
+	height: 36px;
+	font-family: "微软雅黑";
+	font-size: 14px;
+	color: #666;
+	text-align: center;
+	border: 2px solid #cecece;
+	border-radius: 4px;
+	margin-right: 128px;
+	margin-bottom:6px;
+	padding-left: 12px;
+	padding-right: 12px;
+}
+.areaReg{
+	width: 280px;
+	height: 120px;
+	line-height: 16px;
+	font-family: "微软雅黑";
+	font-size: 14px;
+	color: #666;
+	border: 2px solid #cecece;
+	border-radius: 4px;
+	margin-bottom:6px;
+	/*margin-top: 2px;*/
+	padding-left: 12px;
+	padding-right: 12px;
+}
+.areaReg:hover, .areaReg:active{
+	border: 2px solid #2abbc0;
+}
+.re_label{
+	width: 120px;
+	text-align: right;
+	padding-right: 10px;
+	color: #666;
+	font-size: 14px;
+}
+.re_code_label{
+	float: left;
+	line-height: 40px;
+	margin-right: 10px;
+	margin-left: -38px;
+}
+.re_code{
+	width: 160px;
+	height: 36px;
+	line-height: 16px;
+	font-family: "微软雅黑";
+	font-size: 14px;
+	color: #666;
+	border: 2px solid #cecece;
+	border-radius: 4px;
+	margin-bottom:6px;
+	/*margin-top: 2px;*/
+	padding-left: 12px;
+	float: left;
+}
+
+.re_code:hover, .re_code:active{
+	border: 2px solid #2abbc0;
+}
+
+.re_code1 {
+	width:80px; 
+	height:36px; 
+	border:none; 
+	outline:none; 
+	background:#e2e2e2;
+	text-align:center; 
+	line-height:36px; 
+	color:#2abbc0; 
+	letter-spacing:3px; 
+	font-size:20px; 
+	font-weight:bolder; 
+	display: block;
+	float: left;
+	margin-left: 18px;
+	margin-top: 3px;
+}
+.refresh img{
+	margin-left: 6px;
+	padding-top: 10px;
+}
+.regSub{
+	width: 310px;
+	height: 46px;
+	color: #fff;
+	font-size: 18px;
+	font-family: "微软雅黑";
+	background: #f57451;
+	border: none;
+	border-radius: 4px;
+	margin: 26px 0 50px 40px;
+}
+
+/*主界面样式*/
+.mainNav{
+	font-size: 14px;
+	color: #93feee;
+	float: left;
+	padding-top: 16px;
+	margin-left: 60px;
+}
+.mainNav:hover, .mainNav:active{
+	color: #fff;
+	text-decoration: none;
+}
+.user{
+	float: right;
+	height: 26px;
+	padding: 12px 20px 12px 0;
+}
+.userInforName{
+	vertical-align: middle;
+}
+.triangle{
+
+}
+.userChoiceBox{
+	width: 60px;
+	margin-top: 13px;
+	padding: 14px 20px;
+	background: #2abbc0;
+	text-align: center;
+	line-height: 32px;	
+	display: none;
+	position: absolute;
+	z-index: 1;
+}
+.userChoiceBox p a{
+	color: #fff;
+}
+.userChoiceBox p a:hover,.userChoiceBox p a:active{
+	text-decoration: none;
+	color: #ccc;
+}
+.Recruitment{
+	width: 960px;
+	min-height: 540px;
+	margin: 0 auto;
+}
+.RecruitmentBox{
+	width: 880px;
+	padding-top:40px; 
+	padding-left: 40px;
+}
+.RecruitmentBox table{
+	width: 880px;
+}
+.RecruitmentBox thead{
+	font-size: 16px;
+	font-weight: normal;
+	color: #666;
+}
+.RecruitmentBox th{
+	text-align: center;
+	padding: 8px;
+	border: 1px solid #cecece;
+	background: #D9D9DA;
+}
+.RecruitmentBox td{
+	border: 1px solid #cecece;
+	/*padding-left: 30px;*/
+	text-align: left;
+	padding: 6px;
+	padding-left:28px;	
+}
+.RecruitmentBox table a{
+	color: #666;
+	cursor: pointer;
+}
+.RecruitmentBox table a:hover,.RecruitmentBox table a:active{
+	text-decoration: none;
+	color: #2ABBC0;
+}
+.RecruitmentBox .deliver{
+	border: none;
+	background: #2ABBC0;
+	color: #fff;
+	padding: 2px 6px;
+}
+.RecruitmentBox .deliver:hover,.RecruitmentBox .deliver:active{
+	color: #ffdd67;
+}
+.perinforBox{
+	width: 600px;
+	min-height: 720px;
+	margin: 0 auto;
+	padding: 40px;
+}
+
+.perDetaile{
+	width: 520px;
+	float: left;
+	background: #f8f8f8;
+	border: 1px solid #2ABBC0;
+	padding: 40px 40px;
+	line-height: 36px;
+}
+.perDetaile h2{
+	font-size: 24px;
+	font-weight: normal;
+	margin-bottom: 20px;
+	margin-left: 24px;
+}
+.edit{
+	float: right;
+	line-height: 30px;
+	margin-top: -46px;
+	margin-right: 20px;
+	padding: 0 16px;
+	background: #2ABBC0;
+	border: 1px solid #00959a;
+	color: #fff;
+}
+.edit a{
+	color: #fff;
+}
+.perDetaile p{
+	line-height: 40px;
+}
+.perDetaile p span{
+	width: 80px;
+	text-align: right;
+	display: block;
+	float: left;
+	color: #444;
+	font-weight: bold;
+	margin-right: 10px;
+}
+ .perDetaile .sexEdit{
+	width: 14px;
+	height: 14px;
+	margin:0 10px 0 20px;
+}
+.perDetaile input{
+	width: 240px;
+	height: 28px;
+	border: 1px solid #CECECE;
+	border-radius: 2px;
+	padding:0 8px;
+}
+.perDetaile textarea{
+	width: 240px;
+	height: 120px;
+	border: 1px solid #CECECE;
+	border-radius: 2px;
+	padding:0 8px;
+	margin-top: 6px;
+}
+.perDetaile input:hover,.perDetaile input:active{
+	border: 1px solid #2ABBC0;
+}
+.perDetaile textarea:hover,.perDetaile textarea:active{
+	border: 1px solid #2ABBC0;
+}
+.perDetaile .EditSub{
+	width: 100px;
+	height: 30px;
+	margin-top: 20px;
+	margin-left: 60px;
+	color: #fff;
+	background: #F57451;
+}
+.perDetaileEdit p{
+	line-height: 56px;
+}
+
+/*简历投递成功页面*/
+.success{
+	width: 660px;
+	height: 400px;
+	margin:30px auto;
+	padding:40px 50px;
+	text-align: center;
+	border: 2px solid #ececec;
+	background: #f8f8f8;
+}
+.success p{
+	width: 658px;
+	height: 36px;
+	font-size: 24px;
+	font-weight: normal;
+	color: #666;
+	background: #fffcd9;
+	border: 1px solid #f2e085;
+}
+
+/*公司信息页面*/
+.com{
+	float: right;
+	/*height: 26px;*/
+	padding: 12px 20px 12px 0;
+}
+
+
+/*公司主界面*/
+.comMAIN{
+	width: 960px;
+	min-height: 540px;
+	margin: 0 auto;
+}
+.comMAINBox{
+	widows: 880px;
+	padding-top:40px; 
+	padding-left: 40px;
+}
+.comMAINBox table{
+	width: 880px;
+}
+.comMAINBox thead{
+	font-size: 16px;
+	font-weight: normal;
+	color: #666;
+}
+.comMAINBox th{
+	text-align: center;
+	padding: 8px;
+	border: 1px solid #cecece;
+	background: #D9D9DA;
+}
+.comMAINBox td{
+	border: 1px solid #cecece;
+	/*padding-left: 30px;*/
+	text-align: left;
+	padding: 6px;
+	padding-left:40px;	
+}
+.comMAINBox table a{
+	color: #666;
+	cursor: pointer;
+}
+.comMAINBox table a:hover,.comMAINBox table a:active{
+	text-decoration: none;
+	color: #2ABBC0;
+}
+.comMAINBox .deliver{
+	border: none;
+	background: #2ABBC0;
+	color: #fff;
+	padding: 2px 6px;
+}
+.comMAINBox .deliver:hover,.comMAINBox .deliver:active{
+	color: #ffdd67;
+}
+.comMAINBox .dele{
+	margin-left: 9px;
+	border: none;
+	background: #2ABBC0;
+	color: #fff;
+	padding: 2px 6px;
+}
+.comMAINBox .dele:hover,.comMAINBox .dele:active{
+	color: #ffdd67;
+}
+.comInforBox{
+	min-height: 400px;
+}
+
+/*发布岗位页面*/
+.postBox{
+	width: 600px;
+	min-height: 720px;
+	margin: 0 auto;
+	padding: 40px;
+}
+.postContent{
+	width: 440px;
+	float: left;
+	background: #fafafa;
+	border: 1px solid #2ABBC0;
+	padding: 40px 90px;
+	line-height: 50px;
+}
+.postContent p span{
+	width: 80px;
+	text-align: right;
+	display: block;
+	float: left;
+	color: #444;
+	font-weight: bold;
+	margin-right: 14px;
+}
+.postContent input{
+	width: 240px;
+	height: 28px;
+	border: 1px solid #cecece;
+	border-radius: 2px;
+	padding: 0 8px;
+}
+.postContent input:hover,.postContent input:active{
+	border: 1px solid #2ABBC0;
+}
+.postContent textarea{
+	width: 240px;
+	height: 120px;
+	border: 1px solid #cecece;
+	border-radius: 2px;
+	padding: 4px 8px;
+	margin-top: 14px;
+}
+.postContent textarea:hover,.postContent textarea:active{
+	border: 1px solid #2ABBC0;
+}
+.postContent .postSub{
+	width: 100px;
+	height: 30px;
+	margin-top: 30px;
+	margin-left: 78px;
+	color: #fff;
+	background: #29c1ad;
+}
+
+/*岗位详细信息页面*/
+.positionBox{
+	width: 580px;
+	margin:40px auto;
+	font-size: 14px;
+	border: 1px solid #2ABBC0;
+	padding: 40px 50px;
+}
+.positionTitle{
+	width: 600px;
+	height: 70px;
+	border-bottom: 1px solid #cecece;
+	margin-bottom: 18px;
+}
+.positionTitle h3{
+	font-size: 24px;
+	font-weight: normal;
+	margin-bottom: 20px;
+}
+.positionTitle a{
+	color: #2ABBC0;
+}
+.positionTitle p{
+	float: left;
+	font-size: 12px;
+}
+.positionTitle span{
+	font-size: 12px;
+	float: right;
+}
+.positionBox{
+	line-height: 30px;
+}
+.positionSub{
+	margin-top: 20px;
+	color: #fff;
+	border: 1px solid #07a9af;
+	padding: 4px 8px;
+	background: #2ABBC0;
+}
+
+/*投递信息历史界面*/
+.history{
+	width: 800px;
+	margin: 40px auto;
+	min-height: 400px;
+}
+.history table{
+	width: 800px;
+}
+.history thead{
+	font-size: 16px;
+	font-weight: normal;
+	color: #666;
+}
+.history th{
+	text-align: center;
+	padding: 8px;
+	border: 1px solid #cecece;
+	background: #D9D9DA;
+}
+.history td{
+	border: 1px solid #cecece;
+	text-align: left;
+	padding: 6px;
+	padding-left: 40px;
+}
+.history table a{
+	color: #666;
+	cursor: pointer;
+}
+.history table a:hover,.history table a:active{
+	text-decoration: none;
+	color: #2ABBC0;
+}
+.page{
+	margin-top: 20px;
+	margin-right: 40px;
+	float: right;
+}
+.page a{
+	margin-right: 4px;
+	cursor: pointer;
+}
+/*招聘纪录页面样式*/
+.history .dele{
+	border: none;
+	background: #2ABBC0;
+	color: #fff;
+	padding: 2px 4px;
+}
+.history .dele:hover,.history .dele:active{
+	color: #ffdd67;
+}
